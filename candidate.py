@@ -16,7 +16,7 @@ class Candidate:
 
     def get_all(self):
         """Показывает короткое представление всех кандидатов"""
-        return f"<pre>Имя кандидата: {self.name}\nПозиция кандидата: {self.position}\nНавыки: {self.skills}</pre>"
+        return f"<pre>Имя кандидата: <a href='candidates/{self.pk}' _blank: target='_blank'>{self.name}</a>\nПозиция кандидата: {self.position}\nНавыки: {self.skills}</pre>"
 
     # def get_by_pk(self, pk):
     #     """Показывает кандидата по его номеру pk"""
