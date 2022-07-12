@@ -13,7 +13,7 @@
     "name": "Sheri Torres",
     "picture": "https://picsum.photos/200",
     "position": "Delphi developer",
-    "gender": "female",
+    "gender": "male",
     "age": 26,
     "skills": "Delphi, pascal, fortran, basic"
   },
@@ -55,11 +55,20 @@
   },
   {
     "pk": 7,
-    "name": "Sheree Love",
+    "name": "Sony Love",
     "picture": "https://picsum.photos/200",
     "position": "Django developer",
     "gender": "female",
     "age": 33,
-    "skills": "Python, Django, flask"
+    "skills": "Python, Django"
+  },
+  {
+    "pk": 8,
+    "name": "Jarry Cruze",
+    "picture": "https://picsum.photos/200",
+    "position": "Python developer",
+    "gender": "male",
+    "age": 23,
+    "skills": "Python, Django, Flask"
   }
 ]
